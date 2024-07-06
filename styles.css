@@ -1,0 +1,57 @@
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  padding-left: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+button {
+  background-color: var(--surface-color);
+  color: var(--on-surface-color);
+  border: none;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.15s ease-in-out;
+}
+
+button:hover {
+  background-color: var(--surface-hover-color);
+}
+
+.titlebar {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+#dji-logo {
+  width: 80px;
+  height: auto;
+  filter: saturate(0) brightness(100);
+  padding-right: 1rem;
+}
+
+#o3-image {
+  width: 300px;
+  height: auto;
+  margin: 1rem;
+  border-radius: 0.25rem;
+}
+
+#hack-container {
+  display: none;
+}
