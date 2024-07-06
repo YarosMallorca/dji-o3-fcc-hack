@@ -22,7 +22,6 @@ button {
   border: none;
   font-size: 1.2rem;
   padding: 0.5rem 1rem;
-  margin: 0.5rem;
   border-radius: 0.25rem;
   cursor: pointer;
   transition: background-color 0.15s ease-in-out;
@@ -45,11 +44,15 @@ button:hover {
   padding-right: 1rem;
 }
 
-#o3-image {
-  width: 300px;
+.images {
+  display: flex;
+  gap: 2rem;
+}
+.images img {
+  width: 230px;
   height: auto;
-  margin: 1rem;
   border-radius: 0.25rem;
+  align-self: center;
 }
 
 #hack-container {

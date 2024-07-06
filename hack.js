@@ -29,7 +29,8 @@ async function checkHackStatus() {
   }
 
   if (hackApplied) {
-    document.getElementById("hack-status").innerText = "Status: Applied";
+    document.getElementById("hack-status").innerHTML =
+      "Status: Applied, eject the SD Card, and insert it into <b>your goggles</b>.";
     document.getElementById("hack-button").innerText = "Remove Hack";
   } else {
     document.getElementById("hack-status").innerText = "Status: Not Applied";
